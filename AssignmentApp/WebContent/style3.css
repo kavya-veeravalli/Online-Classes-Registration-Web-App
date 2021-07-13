@@ -1,0 +1,113 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(bg3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+.box{
+    position: absolute;
+    top:10%;
+    left:35%;
+    translate: (-50%,-50%);
+    width:400px;
+    padding:40px;
+    background:rgba(34, 32, 32, 0.7) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+.box h2
+{
+    margin:0 0 30px;
+    padding:0;
+    color:#fff;
+    text-align:center;
+}
+
+.box .inputBox input
+{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    border-radius: 2px;
+    color:rgb(153, 255, 233);
+    border-color: rgb(255, 255, 255);
+    border:none;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 1px;
+    outline:none;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.box .inputBox label
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.box .inputBox select
+{
+    width:100%;
+    padding:10px 0;
+    font-size: 16px;
+    border-radius: 2px;
+    color:rgb(153, 255, 233);
+    border-color: #fff;
+    border:none;
+    outline:none;
+    background:transparent;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.box input[value="submit"]
+{
+    padding: 10px 20px;
+    border:none;
+    outline:none;
+    color: #fff;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(223, 95, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.box .radioBox input
+{
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 255, 233);
+    
+    
+    
+}
+
+.box .radioBox{
+    color:rgb(153, 255, 233);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.box .radioBox label{
+    color:#fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-right: 80px;
+}

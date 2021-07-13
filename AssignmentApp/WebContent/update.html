@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>update details</title>
+    <link rel="stylesheet" href="update.css">
+</head>
+<body>
+    
+    <div class="box">
+        <h2>Update the details!</h2>
+        <h4>Reference Key</h4>
+        <form action="update" method="post">
+            <div class="inputBox">
+                <label>Register Number</label>
+                <input type="text" name="registernumber">
+            </div>
+            <hr>
+            <h4>Update keys</h4>
+            <div class="inputBox">
+                <label>Email</label>
+                <input type="text" name="email">
+            </div>
+
+            <div class="radioBox">
+                <label>Section</label>
+                <input type="radio" name="section" value="A">A<input type="radio" name="section" value="B">B<input type="radio" name="section" value="C">C<input type="radio" name="section" value="D">D
+            </div>
+
+            <div class="inputBox">
+                <label>Internet Facility</label>
+                <select name="internetfacility">
+                    <option>Poor</option>
+                    <option>Average</option>
+                    <option>Good</option>
+                </select>
+            </div>
+            <input type="submit" value="Update">
+
+        </form>
+    </div>
+</body>
+</html>

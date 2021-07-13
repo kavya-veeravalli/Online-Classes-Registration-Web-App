@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="box" method="post">
+        <h2>Fill the form for SRKREC online classes!</h2>
+        <form action="reg" method="get">
+        <div class="inputBox">
+            <label>First Name</label>
+            <input type="text" name="firstname">
+        </div>
+
+        <div class="inputBox">
+            <label>Last Name</label>
+            <input type="text" name="lastname">
+        </div>
+
+        <div class="inputBox">
+            <label>Email</label>
+            <input type="text" name="email">
+        </div>
+
+        <div class="radioBox">
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">female<br><br>
+        </div>
+        
+        <div class="inputBox">
+            <label>Register Number</label>
+            <input type="text" name="registernumber">
+        </div>
+
+        <div class="inputBox">
+            <label>Branch</label>
+            <select name="branch">
+                <option>CSE</option>
+                <option>IT</option>
+                <option>ECE</option>
+                <option>MECH</option>
+                <option>EEE</option>
+                <option>CIVIL</option>
+            </select>
+        </div>
+
+        <div class="radioBox" >
+            <label>Year---</label>
+            <input type="radio" name="year" value="1">1<sup>st</sup><input type="radio" name="year" value="2">2<sup>nd</sup><input type="radio" name="year" value="3">3<sup>rd</sup><input type="radio" name="year" value="4">4<sup>th</sup><br><br>
+        </div>
+
+        <div class="radioBox">
+            <label>Section</label>
+            <input type="radio" name="section" value="A">A<input type="radio" name="section" value="B">B<input type="radio" name="section" value="C">C<input type="radio" name="section" value="D">D<br><br>
+        </div>
+
+        <div class="inputBox">
+            <label>Internet Facility</label>
+            <select name="internetfacility">
+                <option>Poor</option>
+                <option>Average</option>
+                <option>Good</option>
+            </select>
+        </div>
+
+        <div class="inputBox">
+            <label>Phone Number</label>
+            <input type="text" name="phonenumber">
+        </div>
+        <input type="submit" value="submit">
+    </form>     
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body
+{
+    padding:0;
+    margin:0;
+    background: url(bg4.jpg);
+    font-size: 60px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.box
+{
+    position:absolute;
+    top: 80%;
+    left:5%;
+    font-family: cursive;
+    font-size: 60px;
+    color: rgb(216, 216, 216);
+    text-shadow:2px 2px 5px  rgb(1, 110, 117);
+    
+}
+
+.box .hi h4
+{
+    position:absolute;
+    top: 17%;
+    left:5%;
+    font-family: cursive;
+    font-size: 60px;
+    color: rgb(0, 197, 181);
+    text-shadow:2px 2px 5px rgb(255, 0, 0);
+}
+
+
+.box button{
+    transform: translate(200%,-610%);
+    font-size: 16px;
+    outline:none; 
+    border:none;
+    background: transparent;
+    color:#fff;
+    background: rgb(212, 52, 52);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box .update button{
+    transform: translate(50%,-390%);
+    font-size: 16px;
+    outline:none; 
+    border:none;
+    background: transparent;
+    color:#fff;
+    background: rgb(66, 66, 66);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

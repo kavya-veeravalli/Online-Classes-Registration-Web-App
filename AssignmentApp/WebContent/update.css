@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+    height:100;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(bg6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    letter-spacing: 1px;
+}
+
+.box{
+    position: absolute;
+    top:12%;
+    left:36%;
+    translate: (-50%,-50%);
+    width:400px;
+    padding:40px;
+    background:rgba(34, 32, 32, 0.7) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+.box hr
+{
+    margin:15px 0;
+    outline:none;
+    border-color:rgb(146, 0, 182);
+}
+
+.box input[type="submit"]
+{
+    outline:none; 
+    border:none;
+    background: transparent;
+    color:#fff;
+    background: rgb(6, 197, 181);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.box .inputBox input
+{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    border-radius: 2px;
+    color: rgb(153, 255, 233);
+    border-color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+
+
+.box h4
+{
+    margin:0 0 30px;
+    padding:0;
+    color:rgb(255, 255, 255);
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.box h2
+{
+    margin:0 0 30px;
+    padding:0;
+    color:#fff;
+    text-align:center;
+}
+
+.box .inputBox label
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.box .inputBox select
+{
+    width:100%;
+    padding:10px 0;
+    font-size: 16px;
+    border-radius: 2px;
+    color:rgb(153, 255, 233);
+    border-color: #fff;
+    border:none;
+    outline:none;
+    background:transparent;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.box .radioBox label{
+    color:#fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+.box .radioBox input
+{
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 255, 233);
+}
+
+.box .radioBox{
+    color:rgb(153, 255, 233);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.box .radioBox label{
+    color:#fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-right: 80px;
+}

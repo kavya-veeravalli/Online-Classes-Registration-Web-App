@@ -1,0 +1,99 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    padding:40px;
+    background:rgba(34, 32, 32, 0.7) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.box h2
+{
+    margin:0 0 30px;
+    padding:0;
+    color:#fff;
+    text-align:center;
+}
+.box .inputBox input
+{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    border-radius: 2px;
+    color: rgb(153, 255, 233);
+    border-color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.box .inputBox label
+{
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.box input[type="submit"]
+{
+    outline:none; 
+    border:none;
+    background: transparent;
+    color:#fff;
+    background: rgb(6, 197, 181);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box input
+{
+    font-size: 16px;
+    color: black;
+}
+.box hr
+{
+    margin:15px 0;
+    outline:none;
+    border-color:rgb(95, 95, 95);
+}
+
+.box input[value="Signup"]
+{
+    outline:none; 
+    border:none;
+    background: transparent;
+    color:rgb(255, 255, 255);
+    background: rgb(223, 95, 78);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box pre
+{
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    letter-spacing: 1px;
+}
+
+
+.box a{
+    color:rgb(243, 74, 23);
+}
